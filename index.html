@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carlo Botha — Software Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="shell">
+  <aside class="sidebar">
+    <div>
+      <div class="brand"><span class="dot"></span>carlo.botha</div>
+      <button class="menu-toggle" id="menuToggle">menu ▾</button>
+      <ul class="nav-tree" id="navTree">
+        <li><a href="#home" class="marker">~/</a></li>
+        <li><a href="#about"><span class="marker">•</span>about.md</a></li>
+        <li><a href="#skills"><span class="marker">•</span>skills.json</a></li>
+        <li><a href="#projects"><span class="marker">•</span>projects/</a></li>
+        <li><a href="#education"><span class="marker">•</span>education.md</a></li>
+        <li><a href="#contact"><span class="marker">•</span>contact.sh</a></li>
+      </ul>
+    </div>
+    <div class="sidebar-footer"><span class="status-dot"></span>open to junior dev roles</div>
+  </aside>
+
+  <main class="main">
+
+    <section id="home">
+      <span class="eyebrow">// welcome</span>
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span class="tdot red"></span><span class="tdot yellow"></span><span class="tdot green"></span>
+          <span class="tlabel">bash — carlo@dev</span>
+        </div>
+        <div class="terminal-body">
+          <div class="line"><span class="prompt">$</span> whoami</div>
+          <div class="line"><span class="out">&gt; Carlo Botha</span></div>
+          <div class="line"><span class="prompt">$</span> role --current</div>
+          <div class="line"><span class="out role">&gt; Software Developer</span></div>
+          <div class="line"><span class="prompt">$</span> cat tagline.txt</div>
+          <div class="line tagline">&gt; "IT graduate who picks up new languages and frameworks quickly, with a genuine passion for solving problems through code."<span class="cursor"></span></div>
+        </div>
+      </div>
+      <div class="cta-row">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="assets/CV.pdf" class="btn ghost">Download CV ↓</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <span class="eyebrow">// section 01</span>
+      <h2>about.md</h2>
+      <div class="code-block">
+        <span class="comment">/* professional summary */</span>
+        <p>Ambitious Information Technology graduate from North West University with a strong foundation in software development, databases, and problem-solving. Passionate about people and building healthy relationships with teammates and collaborators on projects. Eager to bring a fast learning curve, attention to detail, and a collaborative mindset to the work environment, while gaining technical experience on the job.</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <span class="eyebrow">// section 02</span>
+      <h2>skills.json</h2>
+      <div class="json-block">
+        <div class="json-row"><span class="json-key">"languages"</span><span class="json-punct">:</span>
+          <div class="chip-row">
+            <span class="chip">Java</span><span class="chip">C#</span><span class="chip">C++</span><span class="chip">Python</span><span class="chip">JavaScript</span>
+          </div>
+        </div>
+        <div class="json-row"><span class="json-key">"web"</span><span class="json-punct">:</span>
+          <div class="chip-row"><span class="chip">.NET Framework</span><span class="chip">JavaScript</span></div>
+        </div>
+        <div class="json-row"><span class="json-key">"databases"</span><span class="json-punct">:</span>
+          <div class="chip-row"><span class="chip">SQL</span><span class="chip">Oracle</span><span class="chip">Database Design</span></div>
+        </div>
+        <div class="json-row"><span class="json-key">"tools_and_platforms"</span><span class="json-punct">:</span>
+          <div class="chip-row"><span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">Visual Studio</span><span class="chip">AWS</span><span class="chip">Ubuntu Server</span></div>
+        </div>
+        <div class="json-row"><span class="json-key">"fundamentals"</span><span class="json-punct">:</span>
+          <div class="chip-row"><span class="chip">Data Structures & Algorithms</span><span class="chip">OOP</span><span class="chip">SDLC</span></div>
+        </div>
+        <div class="json-row"><span class="json-key">"soft_skills"</span><span class="json-punct">:</span>
+          <div class="chip-row"><span class="chip">Collaboration</span><span class="chip">Critical Thinking</span><span class="chip">Public Speaking</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <span class="eyebrow">// section 03</span>
+      <h2>~/projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <div class="project-tab">bitcoin_trading_algorithm/</div>
+          <div class="project-body">
+            <h3>Bitcoin Trading Algorithm</h3>
+            <p>A Bitcoin Trading Algorithm that automates trades on the Binance Crypto Currency Exchange using a medium to long term trading strategy approach.</p>
+            <div class="tag-row"><span class="tag">Python</span><span class="tag">API</span></div>
+            <div class="project-links"><a href="https://github.com/Carolus05/Bitcoin-Trading-Algorithm" target="_blank">GitHub →</a></div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-tab">savings_dashboard/</div>
+          <div class="project-body">
+            <h3>Interest Tracking Dashboard for Savings Accounts</h3>
+            <p>This Dashboard helps the user track the interest his savings accounts are earning and provides valuable statistics</p>
+            <div class="tag-row"><span class="tag">Python</span><span class="tag">SQL</span></div>
+            <div class="project-links"><a href="https://github.com/Carolus05/Savings-Tracking-Dashboard" target="_blank">GitHub →</a></div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-tab">rehab_tracking_system/</div>
+          <div class="project-body">
+            <h3>Criminal Rehabilitation Tracking System</h3>
+            <p>Class project — This project aims at tracking how successfully criminals are rehabilitated and allows prison wardens and judges to see if they are ready to merge into society again.</p>
+            <div class="tag-row"><span class="tag">C#</span><span class="tag">Database Design</span></div>
+            <div class="project-links"><a href="https://github.com/Castleman07/Group50_CMPG223_Justice_System" target="_blank">GitHub →</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <span class="eyebrow">// section 05</span>
+      <h2>education.md</h2>
+      <div class="code-block">
+        <div class="edu-row">
+          <span class="edu-degree">BSc Information Technology</span>
+          <span class="edu-date">Feb 2024 — Nov 2026 (expected)</span>
+        </div>
+        <div class="edu-school">North West University, Potchefstroom</div>
+        <p>Built a strong foundation in systems design, database systems, computer networks, and systems analysis, with hands-on experience applying these skills through coursework and independent projects.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <span class="eyebrow">// section 06</span>
+      <h2>contact.sh</h2>
+      <div class="terminal contact-terminal">
+        <div class="terminal-bar">
+          <span class="tdot red"></span><span class="tdot yellow"></span><span class="tdot green"></span>
+          <span class="tlabel">bash — carlo@dev</span>
+        </div>
+        <div class="terminal-body">
+          <div class="line"><span class="prompt">$</span> echo $EMAIL</div>
+          <div class="line out">carlobotha0@gmail.com</div>
+          <div class="line"><span class="prompt">$</span> echo $PHONE</div>
+          <div class="line out">081 353 8842</div>
+          <div class="line"><span class="prompt">$</span> echo $LOCATION</div>
+          <div class="line out">Potchefstroom, South Africa</div>
+        </div>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:carlobotha0@gmail.com">Email →</a>
+        <a href="#" target="_blank">LinkedIn →</a>
+        <a href="#" target="_blank">GitHub →</a>
+      </div>
+    </section>
+
+    <footer>© 2026 Carlo Botha — built with HTML, CSS &amp; JS, hosted on GitHub Pages</footer>
+
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
