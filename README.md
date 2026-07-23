@@ -4,7 +4,7 @@
 
 A personal portfolio website built as an interactive, developer-themed CV. Designed to look and feel like a code editor / terminal environment, reflecting my background and interests as a Software Developer.
 
-**Live site:** https://carolus05.github.io/YOUR-REPO-NAME/
+**Live site:** https://carolus05.github.io/Carolus05.github.io-VirtualCV/
 *(replace with your actual GitHub Pages URL once deployed)*
 
 ---
